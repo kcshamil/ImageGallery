@@ -1,7 +1,7 @@
 # Image Gallery
 
 A responsive masonry-style image gallery built using **React and Vite**.
-The gallery displays images in a dynamic column layout with hover effects and a modal viewer for better user interaction.
+The application displays images in a dynamic column layout with hover effects and a modal viewer for a better user experience.
 
 ---
 
@@ -14,7 +14,6 @@ The gallery displays images in a dynamic column layout with hover effects and a 
 * Hover overlay displaying image details
 * Clean and responsive UI design
 
-
 ---
 
 ## Tech Stack
@@ -23,7 +22,6 @@ The gallery displays images in a dynamic column layout with hover effects and a 
 * Vite
 * CSS
 * Bootstrap
-* GSAP
 
 ---
 
@@ -41,6 +39,9 @@ src
  │    ├── Header.jsx
  │    ├── Gallery.jsx
  │    └── ImageModal.jsx
+ │
+ ├── data
+ │    └── galleryData.js
  │
  ├── App.jsx
  ├── App.css
@@ -77,8 +78,9 @@ http://localhost:5173
 * Images are displayed in a masonry column layout
 * Hovering over an image reveals title, category, and author
 * Clicking an image opens a modal viewer
-* Users can navigate images using next/previous buttons or keyboard arrows
-* The ESC key closes the modal
+* Users can navigate images using next/previous buttons
+* Arrow keys can be used for navigation
+* ESC key closes the modal
 
 ---
 
