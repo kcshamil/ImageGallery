@@ -29,24 +29,30 @@ The application displays images in a dynamic column layout with hover effects an
 
 ```
 src
- ├── assets
- │    └── images
- │         ├── img1.jpg
- │         ├── img2.jpg
- │         └── ...
- │
- ├── components
- │    ├── Header.jsx
- │    ├── Gallery.jsx
- │    └── ImageModal.jsx
- │
- ├── data
- │    └── galleryData.js
- │
- ├── App.jsx
- ├── App.css
- ├── index.css
- └── main.jsx
+│
+├── assets
+│
+├── components
+│   ├── Gallery.jsx
+│   ├── Header.jsx
+│   └── ImageModal.jsx
+│
+├── data
+│   └── galleryData.jsx
+│
+├── screenshots
+│   ├── desktopModal.png
+│   ├── gallery1.png
+│   ├── gallery2.png
+│   ├── mobile1.png
+│   ├── mobile2.png
+│   ├── mobile3.png
+│   └── mobileModal.png
+│
+├── App.css
+├── App.jsx
+├── index.css
+└── main.jsx
 ```
 
 ---
@@ -83,6 +89,23 @@ http://localhost:5173
 * ESC key closes the modal
 
 ---
+
+## Screenshots
+
+Gallery Layout
+
+
+
+
+Modal View
+
+
+
+
+Mobile View
+
+---
+
 
 ## Author
 
