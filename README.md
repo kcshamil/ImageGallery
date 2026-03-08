@@ -13,7 +13,7 @@ The gallery displays images in a dynamic column layout with hover effects and a 
 * Keyboard navigation (Arrow keys and ESC)
 * Hover overlay displaying image details
 * Clean and responsive UI design
-* GSAP animation for modal opening
+
 
 ---
 
